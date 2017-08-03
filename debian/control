@@ -1,0 +1,26 @@
+Source: kconfig-frontends
+Section: extra
+Priority: optional
+Maintainer: Philippe Coval <philippe.coval@osg.samsung.com>
+Build-Depends: debhelper (>= 8.0.0),
+ bison,
+ dh-autoreconf,
+ pkg-config,
+ flex,
+ gperf,
+ libncurses5-dev
+Standards-Version: 3.9.4
+Homepage: http://ymorin.is-a-geek.org/projects/kconfig-frontends
+#Vcs-Git: git://git.debian.org/collab-maint/kconfig-frontends.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/kconfig-frontends.git;a=summary
+
+Package: kconfig-frontends
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: kconfig-frontends-doc
+Architecture: all
+Description: documentation for kconfig-frontends
+ <insert long description, indented with spaces>
