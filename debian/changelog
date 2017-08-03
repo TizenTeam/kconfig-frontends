@@ -1,0 +1,5 @@
+kconfig-frontends (0.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Philippe Coval <philippe.coval@osg.samsung.com>  Thu, 03 Aug 2017 10:16:07 +0200
